@@ -1,0 +1,8 @@
+[package]
+name = "oink"
+version = "0.0.0"
+edition = "2024"
+
+[dependencies]
+rustpython = { git = "https://github.com/RustPython/RustPython.git", version = "0.4.0" }
+rustpython-vm = { git = "https://github.com/RustPython/RustPython.git", version = "0.4.0" }
